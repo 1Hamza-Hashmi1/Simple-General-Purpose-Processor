@@ -3,10 +3,10 @@ use ieee.std_logic_1164.all;
 entity fsm is 
 	port (
 		clk		:	in	std_logic;
-		data_in	:	in	std_logic;
+		data_in		:	in	std_logic;
 		reset		:	in	std_logic;
 		student_id	:	out	std_logic_vector(3 downto 0);
-		current_state:	out	std_logic_vector(3 downto 0));
+		current_state	:	out	std_logic_vector(3 downto 0));
 end entity;
   
 architecture fsm of fsm is 
